@@ -11,8 +11,10 @@
     display: flex;
     flex-direction: column;
     border-radius: 5px;
+    gap: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 3px 0px;
+    padding-bottom: 5px;
 }
 .fpImg{
     width: 100%;
@@ -22,7 +24,7 @@
     font-weight: bold;
 }
 .fpCity{
-    font-weight:lighter;
+    text-transform: capitalize;
 }
 .fpPrice{
     font-weight:500;
